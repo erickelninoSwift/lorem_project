@@ -1,10 +1,14 @@
-import "./App.css";
+import "./index.css";
+import loremData from "./data";
+import { useState } from "react";
 
 function App() {
+  const [count, setCount] = useState(1);
+
   return (
-    <>
-      <h1>Hello World</h1>
-    </>
+    <section className="section-center">
+      <h4>Tired of boring lorem ipsum</h4>
+    </section>
   );
 }
 
